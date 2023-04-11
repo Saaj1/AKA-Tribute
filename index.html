@@ -69,7 +69,7 @@
 
     <!-- About Page -->
     <div class="video">
-      <p>The official music video for AKA's hit single CONGRATULATE, off his sophomore album LEVELS.</p>
+      <h4>The official music video for AKA's hit single CONGRATULATE, off his sophomore album LEVELS.</h4>
       <iframe width="885" height="498" src="https://www.youtube.com/embed/r8hofUKu18M" title="AKA - CONGRATULATE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
       <br>
@@ -80,20 +80,24 @@
         alt="AKA and his daugther Kai"
         height="480"
         />
-        <p>Kairo Forbes, the daughter of rapper AKA and DJ Zinhle,
-          <br>
-          fondly remembered her father.
-          <br>
-          The seven-year-old spoke in a snippet of a video on her Instagram page.
-          <br>
-           In the video, she said she loved AKA, adding he was a good father.</p>
+        <div class="kairo">
+          <p>Kairo Forbes, the daughter of rapper AKA and DJ Zinhle,
+            <br>
+            fondly remembers her father.
+            <br>
+            The seven-year-old spoke in a snippet of a video on her Instagram page.
+            <br>
+            In the video, she said she loved AKA, adding he was a good father.
+            <br>
+            She continued to add that she loved him very much.</p>
+        </div>
     </div>
 
     <br />
     <br />
 
     <!-- AKA Awards -->
-    <h3 align="center">AKA Accolades</h3>
+    <h2 align="center">AKA Accolades</h2>
 
     <div class="accolades">
       <p>
@@ -128,48 +132,51 @@
 
       <!-- Newsletter -->
       <div class="newsletter">
+        <div class="gif">
+          <img src="/images/aka-akaworldwide-gif.gif" alt="gif of AKA" />
+        </div>
         <form>
           <h4>Megacy Newsletter</h4>
-          <input type="text" name="firstname" id="" placeholder="Name" />
+          <input type="text" name="firstname" class="inputs" placeholder="First Name" />
 
-          <input type="text" name="lastname" id="" placeholder="Last Name" />
+          <input type="text" name="lastname" class="inputs" placeholder="Last Name" />
           <br />
           <input
             type="email"
             name="user-emaail"
-            id=""
+            class="inputs"
             placeholder="Email address"
             />
 
-          <input type="password" name="" id="" placeholder="Enter password" />
+          <input type="password" name="" class="inputs" placeholder="Enter password" />
           <br />
-
-          <select>
-            <option value="">Are you team #megacy</option>
-            <option value="">Heck Yeah</option>
-            <option value="">I stan since day one</option>
-            <option value="">NO</option>
-          </select>
+          <p>Are you team #Megacy?</p>
+          <div class="dropdown">
+            <select>
+              <option value="">Heck Yeah</option>
+              <option value="">I stan since day one</option>
+              <option value="">No</option>
+            </select>
+          </div>
           <br />
           <input class="submit-button" type="button" value="Submit" />
           <br />
           <input type="checkbox" />
-          <span class="check-box">
             Subscribe to newsletetter for latest updates and keeping AKA's
             legacy ALIVE.
+          <span class="check-box">
           </span>
+          <!-- Socials -->
+          <div class="social-icons">
+            <i class="fa-brands fa-instagram social-icon"></i>
+            <i class="fa-brands fa-twitter social-icon"></i>
+            <i class="fa-brands fa-youtube social-icon"></i>
+            <i class="fa-solid fa-magnifying-glass social-icon"></i>
+          </div>
         </form>
-
-        <img src="/images/aka-akaworldwide-gif.gif" alt="gif of AKA" />
         <br />
         <br />
       </div>
-    <!-- Socials -->
-    <div class="social-icon">
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-youtube"></i>
-      <i class="fa-solid fa-magnifying-glass"></i>
-    </div>
+
   </body>
 </html>
