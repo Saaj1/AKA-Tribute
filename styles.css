@@ -1,0 +1,99 @@
+.intro {
+  text-align: center;
+}
+
+.aka-story {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 10px;
+}
+
+.info {
+  display: table-column;
+}
+
+.aka-blue-suit {
+ width: 50%;
+ margin: 10px;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.video {
+ text-align: center;
+}
+
+.accolades {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.aka-arms {
+  display: block;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.family {
+  display: flex;
+}
+/* h1 {
+  margin-top: 4rem;
+  position: absolute;
+  top: 1rem;
+  right: 25rem;
+  font-size: 3rem;
+  text-align: center;
+}
+h3 {
+  font-size: 2rem;
+}
+
+hr {
+  width: 20%;
+  position: absolute;
+  top: 10rem;
+  right: 34rem;
+}
+.aka-blue-suit {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  border: 1rem solid #02bcd3;
+  border-radius: 2rem;
+}
+.social-icon {
+  padding: 1rem;
+}
+.social-icon:hover {
+  color: #02bcd3;
+  cursor: grab;
+}
+
+
+.accolades {
+  font-family: "Montserrat", sans-serif;
+  padding: 2rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.check-box {
+  font-size: 0.7rem;
+}
+.newsletter {
+  background: #e9ecef;
+}
+.submit-button {
+  background: blue;
+  border: 1rem solid #e9ecef;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+  color: #e9ecef;
+  font-size: 0.8rem;
+}
+.submit-button:hover {
+  cursor: grab;
+  background: #d965b1;
+} */
