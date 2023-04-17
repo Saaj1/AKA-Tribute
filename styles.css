@@ -33,6 +33,10 @@ body {
  margin: 20px;
 }
 
+.awards {
+  text-align: center;
+}
+
 .accolades {
   display: flex;
   font-family: "Montserrat", sans-serif;
@@ -52,6 +56,7 @@ body {
 .family {
   display: flex;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 5rem;
 }
 
 .aka-kai {
@@ -61,6 +66,7 @@ body {
 
 .kairo {
   margin: auto;
+  padding: 10rem;
 }
 
 .newsletter {
@@ -90,6 +96,7 @@ body {
 .dropdown {
   margin-left: 3px;
   margin-top: 2px;
+  margin-bottom: 0.75rem;
 }
 
 .check-box {
@@ -105,4 +112,8 @@ body {
 .submit-button:hover {
   cursor: grab;
   background: #d965b1;
+}
+
+.coders{
+  text-align: center;
 }
