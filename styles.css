@@ -12,10 +12,10 @@ body {
 .aka-story {
   display: flex;
   font-family: "Montserrat", sans-serif;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  margin: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0rem 0.1rem 0.1rem 0rem;
+  margin: 4rem;
   background-color: #e9ecef;
-  padding: 10px;
+  padding: 3rem;
 }
 
 .info {
@@ -23,14 +23,16 @@ body {
 }
 
 .aka-blue-suit {
- width: 50%;
- margin: 10px;
- box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 50%;
+  margin: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 3rem 5rem,
+    rgba(0, 0, 0, 0.12) 0rem -3rem 7rem, rgba(0, 0, 0, 0.12) 0rem 2rem 3rem,
+    rgba(0, 0, 0, 0.17) 0rem 3rem 6.5rem, rgba(0, 0, 0, 0.09) 0rem -1.5rem 2rem;
 }
 
 .video {
  text-align: center;
- margin: 20px;
+ margin: 5rem;
 }
 
 .awards {
@@ -41,16 +43,18 @@ body {
   display: flex;
   font-family: "Montserrat", sans-serif;
   padding: 2rem;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0rem 2rem 8rem 0rem;
   background-color: #e9ecef;
-  padding: 10px;
-  margin: 20px;
+  padding: 3rem;
+  margin: 4rem;
 }
 
 .aka-arms {
   display: block;
-  margin: 10px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 1rem 2rem,
+    rgba(0, 0, 0, 0.12) 0rem -2rem 4rem, rgba(0, 0, 0, 0.12) 0rem 2rem 2.5rem,
+    rgba(0, 0, 0, 0.17) 0rem 4rem 5rem, rgba(0, 0, 0, 0.09) 0rem -1rem 2rem;
 }
 
 .family {
@@ -61,7 +65,9 @@ body {
 
 .aka-kai {
   border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 2rem 4rem,
+    rgba(0, 0, 0, 0.12) 0rem -3rem 7rem, rgba(0, 0, 0, 0.12) 0rem 2rem 3rem,
+    rgba(0, 0, 0, 0.17) 0rem 3rem 5rem, rgba(0, 0, 0, 0.09) 0rem -1rem 2rem;
 }
 
 .kairo {
@@ -70,22 +76,25 @@ body {
 }
 
 .newsletter {
-  display: flex ;
-  padding: 10px;
+  display: flex;
+  padding: 7rem;
+  margin: 1rem;
 }
 
 .gif {
-  margin-right: 20px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-right: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0rem 2.5rem 1rem,
+    rgba(0, 0, 0, 0.12) 0rem -3rem 2rem, rgba(0, 0, 0, 0.12) 0rem 1rem 2rem,
+    rgba(0, 0, 0, 0.17) 0rem 1rem 2rem, rgba(0, 0, 0, 0.09) 0rem -1rem 1rem;
 }
 
 .inputs {
-  margin: 3px;
+  margin: 0.3rem;
 }
 .social-icons {
  display: block;
  justify-content: start;
- padding: 10px;
+ padding: 0.2rem;
 }
 
 .social-icon:hover {
